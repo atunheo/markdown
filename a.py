@@ -8,10 +8,7 @@ st.set_page_config(page_title="Markdown Excel Converter", page_icon="📘", layo
 
 st.title("📘 Markdown Excel Converter (Giữ hyperlink)")
 
-st.write("""
-Tải file Excel (1 cột **content** chứa Markdown).  
-Ứng dụng sẽ chuyển Markdown sang HTML có hyperlink — bạn có thể xem trước và copy từng bài.
-""")
+st.write("""chỉ có heo lười ở đây""")
 
 uploaded_file = st.file_uploader("📂 Chọn file Excel", type=["xlsx", "xls"])
 
